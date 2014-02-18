@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assigment on progress bar</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="includes/css/style.css">
+</head>
+<body>
+	<div class="container">
+		<h2>Progress Bar Demo</h2>
+		<div class="progressbar" id="pb1">0%</div>
+		<div class="progressbar" id="pb2">0%</div>
+		<div class="progressbar" id="pb3">0%</div>
+
+		<div class='groutbuttons'>
+			<select id="progressBar" name="">
+				<option value="pb1">Progress bar 1</option>
+				<option value="pb2">Progress bar 2</option>
+				<option value="pb3">Progress bar 3</option>
+			</select>		
+			<button class="btn" data-id="-25">-25%</button>
+			<button class="btn" data-id="-10">-10%</button>
+			<button class="btn" data-id="+10">+10%</button>
+			<button class="btn" data-id="+25">+25%</button>
+		</div>
+	</div>
+
+	<script src="includes/libs/jquery/jquery.js"></script>
+	<script src="includes/js/progressbar.js"></script>
+
+</body>
+</html>
